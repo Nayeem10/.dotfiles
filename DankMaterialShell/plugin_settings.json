@@ -1,0 +1,11 @@
+{
+  "dankLauncherKeys": {
+    "enabled": true
+  },
+  "stopwatch": {
+    "enabled": true,
+    "displayFormat": "compact",
+    "showIcon": true,
+    "hideTimerOnRun": false
+  }
+}

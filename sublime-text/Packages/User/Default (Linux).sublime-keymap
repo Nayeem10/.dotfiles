@@ -1,0 +1,4 @@
+[
+	{ "keys": ["shift+space"], "command": "move", "args": {"by": "characters", "forward": true} },
+	{ "keys": ["super+shift+space"], "command": "move", "args": {"by": "characters", "forward": false} }
+]
