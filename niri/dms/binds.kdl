@@ -214,7 +214,7 @@ binds {
     Ctrl+XF86Launch1 { screenshot-screen; }
     Alt+XF86Launch1 { screenshot-window; }
     Print { screenshot; }
-    // Mod+P { screenshot; } // added by me
+    Mod+P { screenshot; } // added by me
     
     // Interactive screenshot with annotation and resizing
     // Mod+P { spawn "sh" "-c" "grim -g \"$(slurp)\" - | satty --filename - --initial-tool arrow"; }

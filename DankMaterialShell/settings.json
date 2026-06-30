@@ -1,12 +1,12 @@
 {
   "currentThemeName": "dynamic",
   "currentThemeCategory": "dynamic",
-  "customThemeFile": "/home/nayeem/.config/DankMaterialShell/themes/arcdarkest/theme.json",
+  "customThemeFile": "/home/nayeem/.config/DankMaterialShell/themes/catppuccin/theme.json",
   "registryThemeVariants": {
     "catppuccin": {
       "dark": {
-        "flavor": "mocha",
-        "accent": "pink"
+        "flavor": "macchiato",
+        "accent": "yellow"
       }
     }
   },
@@ -22,7 +22,7 @@
   "cornerRadius": 12,
   "niriLayoutGapsOverride": -1,
   "niriLayoutRadiusOverride": -1,
-  "niriLayoutBorderSize": -1,
+  "niriLayoutBorderSize": 2,
   "hyprlandLayoutGapsOverride": -1,
   "hyprlandLayoutRadiusOverride": -1,
   "hyprlandLayoutBorderSize": -1,
@@ -395,11 +395,19 @@
   "updaterCustomCommand": "",
   "updaterTerminalAdditionalParams": "",
   "displayNameMode": "system",
-  "screenPreferences": {},
+  "screenPreferences": {
+    "wallpaper": [
+      "all"
+    ]
+  },
   "showOnLastDisplay": {},
   "niriOutputSettings": {
     "eDP-1": {
       "disabled": false
+    },
+    "HDMI-A-1": {
+      "focusAtStartup": true,
+      "hotCorners": null
     }
   },
   "hyprlandOutputSettings": {
@@ -457,7 +465,10 @@
       "enabled": true,
       "position": 0,
       "screenPreferences": [
-        "all"
+        {
+          "name": "HDMI-A-1",
+          "model": "MSI MP251L E2"
+        }
       ],
       "showOnLastDisplay": true,
       "leftWidgets": [
@@ -503,11 +514,26 @@
         }
       ],
       "rightWidgets": [
-        "clipboard",
-        "cpuUsage",
-        "memUsage",
-        "battery",
-        "controlCenterButton"
+        {
+          "id": "clipboard",
+          "enabled": true
+        },
+        {
+          "id": "cpuUsage",
+          "enabled": true
+        },
+        {
+          "id": "memUsage",
+          "enabled": true
+        },
+        {
+          "id": "battery",
+          "enabled": true
+        },
+        {
+          "id": "controlCenterButton",
+          "enabled": true
+        }
       ],
       "spacing": 4,
       "innerPadding": 4,

@@ -122,6 +122,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias insomnia="gnome-session-inhibit --inhibit idle sleep infinity"
 alias start-oracle="rlwrap sqlplus system/nayeem#2110@//localhost:1521/XE"
+alias tt="taskwarrior-tui"
 #alias start-oracle="sudo docker start oracle-xe && sudo docker exec -it oracle-xe sqlplus sys/nayeem#2110 as sysdba"
 #alias stop-oracle="sudo docker stop oracle-xe"
 

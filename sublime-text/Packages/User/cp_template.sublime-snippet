@@ -17,7 +17,7 @@ using PLL = pair<LL, LL>;
 const LL mod = 998244353;
 const int N = 1e6 + 10;
 const int inf = 1e9 + 10;
-const LL INF = 1e18;
+const LL INF = 1e18 + 10;
 
 void solve (int tc) {
 	
@@ -30,7 +30,7 @@ signed main() {
     for (int tc = 1; tc <= t; tc++) {
         solve(tc);
     }
-    return int{};
+    return signed{};
 }
 ]]></content>
 
